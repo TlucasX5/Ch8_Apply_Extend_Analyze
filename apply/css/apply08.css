@@ -5,7 +5,7 @@ File Name: apply08.css
 */
 
 /* CSS Reset */
-body, main, footer, table {
+body, main, footer, table, tr, th, td {
     margin: 0;
     padding: 0;
     border: 0;
@@ -29,28 +29,32 @@ table {
 	border: 3px solid #71881b;
 }
 
-table tr th td {
+/*style rule for the table */
+table, tr, th, td {
 	border-collapse: collapse;
 	padding: 2%;
 }
 
+/*style rule for the table caption */
 caption {
 	font: 2em;
 	padding: 2%;
 	margin-top: 2%;
 }
 
-th td {
+/*style rule for the table headers and cell data */
+th, td {
 	border: 1px solid #7188bb;
 }
 
+/*style rule for the table cell data*/
 td {
 	text-align: center;
 }
 
+/*style rule for the table row */
 tr:nth-child(odd) {
 	background-color: #d3e788;
-
 }
 
 /* Style for the footer element */
