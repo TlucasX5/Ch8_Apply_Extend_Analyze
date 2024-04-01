@@ -38,6 +38,8 @@ table, tr, th, td {
 /*style rule for the table caption */
 caption {
 	font: 2em;
+	font-size: x-large;
+	font-weight: bold;
 	padding: 2%;
 	margin-top: 2%;
 }
