@@ -1,0 +1,66 @@
+/*
+Author: Suzanne Lucas
+Date: 04/01/2024
+File Name: styles08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*style rule for the table */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #71881b;
+}
+
+/*style rule for the table */
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/*style rule for the table caption */
+caption {
+	font: 2em;
+	font-size: x-large;
+	font-weight: bold;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/*style rule for the table headers and cell data */
+th, td {
+	border: 1px solid #7188bb;
+}
+
+/*style rule for the table cell data*/
+td {
+	text-align: center;
+}
+
+/*style rule for the table row */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
