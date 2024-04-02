@@ -5,7 +5,7 @@ File Name: styles08.css
 */
 
 /* CSS Reset */
-body, main, footer, table, tr, th, td {
+body, main, footer, thread, tbody, table, tr, th, td {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,7 +13,8 @@ body, main, footer, table, tr, th, td {
 
 /* Style rule for body */
 body {
-	background-color: #f4f9e1;
+	background-color: #ffe5dc;
+    font-family: sans-serif;
 }
 
 /* Style rule for the container */
@@ -26,13 +27,14 @@ body {
 table {
 	width: 80%;
 	margin: 0 auto;
-	border: 3px solid #71881b;
+	border: 5px solid #fd4d0c;
+    box-shadow: 10px 10px 10px #a22c02;
 }
 
 /*style rule for the table */
 table, tr, th, td {
 	border-collapse: collapse;
-	padding: 2%;
+	padding: 1%;
 }
 
 /*style rule for the table caption */
@@ -42,11 +44,17 @@ caption {
 	font-weight: bold;
 	padding: 2%;
 	margin-top: 2%;
+    color: #a22c02
 }
 
 /*style rule for the table headers and cell data */
 th, td {
-	border: 1px solid #7188bb;
+	border: 1px solid;
+}
+
+th {
+    color: white;
+    background-color: #a22c02;
 }
 
 /*style rule for the table cell data*/
@@ -56,7 +64,7 @@ td {
 
 /*style rule for the table row */
 tr:nth-child(odd) {
-	background-color: #d3e788;
+	background-color: #fe9772;
 }
 
 /* Style for the footer element */
