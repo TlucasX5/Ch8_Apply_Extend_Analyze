@@ -25,8 +25,43 @@ footer {
 	text-align: center;
 }
 
+/* Style rules for Mobile Viewport */ 
+fieldset, input {
+	margin-bottom: 2%;
+}
+
+legend {
+	font-size: 1.25em;
+	font: bold;
+}
+
+.btn {
+	border-collapse: collapse;
+	margin: 0 auto;
+	display: block;
+	padding: 5%;
+	background-color: #003399;
+	font-size: 1.25em;
+	border-radius: 10px #fff;
+}
+
 /* Media query for tablet layout */ 
 @media only screen and (min-width: 600px) {
 
+	form {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+	}
+
+	.btn {
+		grid-column: 1 / span 2;
+		padding: 3%;
+	}
     
 }
