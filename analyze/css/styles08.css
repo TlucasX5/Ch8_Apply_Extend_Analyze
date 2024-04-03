@@ -42,7 +42,8 @@ legend {
 	padding: 5%;
 	background-color: #003399;
 	font-size: 1.25em;
-	border-radius: 10px #fff;
+	border-radius: 10px;
+	border-color: #fff;
 }
 
 /* Media query for tablet layout */ 
